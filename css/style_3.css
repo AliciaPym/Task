@@ -1,0 +1,84 @@
+	/*----------c初始化*/
+body,h1,h2,h3,p,dl,dd{
+			margin: 0;
+		}
+		ul{
+			margin: 0; 
+			padding: 0;
+		}
+		li{
+			list-style: none;
+		}
+		body{
+			font-family: "微软雅黑";
+			 margin: 10px 0 0 10px; 
+			}
+/*------------Start-------------*/
+
+		#wrap{
+			border: 1px solid #ccc;
+			width: 900px;
+			height: 410px;
+			margin: 0 auto;
+		}
+		h1{
+			font-size: 12px;
+			line-height: 45px;
+			background: #848484;
+			width: 890px;
+			height: 45px;
+			font-weight: bold;
+			color: #fff;
+			padding-left: 10px;
+			margin: 0 auto;
+		}
+		main{
+			width: 900px;
+			height: 365px;
+			margin: 0 auto;
+		}
+		section{
+			width: 900px; 
+			height: 72px; 
+			border-bottom: 1px solid #ccc;
+		}
+		h2{
+			float: left;
+			width: 70px;
+			font-size: 12px;
+			font-weight: bold;
+			line-height:70px;
+			background-color: #d6d6d6;
+			text-align: center;
+		}
+		ul,dl{
+			margin-left: 70px;
+			padding-left: 7px;
+		}
+		li{
+			display: inline-block;
+			margin-right: 40px;
+			
+		}
+		li h3{
+			display: inline-block;
+			margin-right: 10px;
+			font-size: 12px;
+		}
+		li p{
+			display: inline-block;
+			font-size: 12px;
+			
+		}
+		dl dt{
+			font-size: 12px;
+			line-height:1.2;
+			font-weight: bold;
+			display: inline-block;
+		}
+
+		dl dd{
+			font-size: 12px;
+			line-height:1.2;
+			display: inline-block;
+		}
